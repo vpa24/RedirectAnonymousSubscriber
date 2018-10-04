@@ -1,0 +1,4 @@
+name: Event subscriber
+type: module
+description: If the user is not logged in, we will navigate them to the login page.
+core: 8.x
