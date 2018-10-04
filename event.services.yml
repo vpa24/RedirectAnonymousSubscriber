@@ -1,5 +1,6 @@
 services:
   event.request_subscriber:
     class: Drupal\event\EventSubscriber\RequestSubscriber
+    arguments: ['@current_route_match', '@current_user']
     tags:
       - { name: event_subscriber }
